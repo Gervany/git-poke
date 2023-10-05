@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300; 400; 800&display=swap');
+
+/*----------------------------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background: #efefef;
+}
+
+/*----------------------------------------------- */
+.home__page {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.home__input,
+.home__button {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    margin: 1rem 0;
+}
+
+.home__input {
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.home__button {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+/*----------------------------------------------- */
+.pokdex__navbar {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: rgb(183, 37, 37);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.pokedex__position__formSelectTrainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.pokedex__input,
+.pokedex__button {
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    margin: 1rem 0;
+}
+
+.pokedex__input {
+    min-width: 350px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.pokedex__button {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+/*----------------------------------------------- */
+.pokedex__form__select {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.select {
+    padding: .45rem 1rem;
+    border: none;
+    background: white;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+/*----------------------------------------------- */
+.loader {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.pagination__home{
+    margin: 1rem 0;
+}
+.pagination__home button{
+    color: white;
+    font-weight: bold;
+    z-index: 10;
+    background: rgb(33, 31, 31);
+}
+
+/*----------------------------------------------- */
+.ID__card {
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1.5em;
+}
+.ID__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.ID__wei__hei {
+    background-color: rgb(197, 228, 228);
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1.5em 0.2em;
+    list-style: none
+}
